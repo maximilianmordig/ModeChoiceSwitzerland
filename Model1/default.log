@@ -1,59 +1,72 @@
 This file has automatically been generated.
-Tue Nov 22 10:06:47 2016
+Tue Nov 22 11:21:06 2016
 Michel Bierlaire, EPFL
 
 biogeme 2.5 [Die Okt 4 11:24:55 CEST 2016]
 Michel Bierlaire, EPFL
 
-Warning: [10:06:47]bioMain.cc:102  pythonbiogeme optima optimaDataset.dat
-[10:06:47]bioParameters.cc:373  Parameter documentation generated: pythonparam.html
-[10:06:48]bioModelParser.cc:109  optima.py exists
+Warning: [11:21:06]bioMain.cc:102  pythonbiogeme optima optimaDataset.dat
+[11:21:06]bioParameters.cc:373  Parameter documentation generated: pythonparam.html
+[11:21:06]bioModelParser.cc:109  optima.py exists
  Read sample in binary format from __bin_optimaDataset.dat *****
  Processing the sample file: __bin_optimaDataset.dat [00:00]
  Nbr of cores reported by the system: 4
  Nbr of cores used by biogeme: 2
  Init. log-likelihood: -2093.96 [00:00]
      gmax Iter   radius        f(x)     Status       rhok nFree
- +4.78e+00    1 1.00e+00 +2.0939550e+03 ****Converg  +1.24e+00 9  ++ P
- +5.50e+00    2 2.00e+00 +1.8181575e+03 ****Converg  +1.06e+00 9  ++ P
- +2.84e+00    3 4.00e+00 +1.4975877e+03 ****Converg  +1.33e+00 9  ++ P
- +1.35e+00    4 8.00e+00 +1.4035517e+03 ****Converg  +1.03e+00 9  ++ P
- +5.80e-01    5 1.60e+01 +1.3230353e+03 ****Converg  +1.18e+00 9  ++ P
- +2.19e-01    6 3.20e+01 +1.3019344e+03 ****Converg  +1.10e+00 9  ++ P
- +3.75e-02    7 6.40e+01 +1.2982770e+03 ****Converg  +9.91e-01 9  ++ P
- +1.00e-02    8 1.28e+02 +1.2963199e+03 ****Converg  +1.00e+00 9  ++ P
- +3.60e-03    9 2.56e+02 +1.2961440e+03 ****Converg  +9.98e-01 9  ++ P
- +1.17e-04   10 5.12e+02 +1.2961256e+03 ****Converg  +1.00e+00 9  ++ P
- +6.83e-06   11 1.02e+03 +1.2961243e+03 ****Converg  +1.00e+00 9  ++ P
+ +4.78e+00    1 1.00e+00 +2.0939550e+03 ****Converg  +1.05e+00 14  ++ P
+ +5.43e+00    2 2.00e+00 +1.4890955e+03 ****Converg  +1.10e+00 14  ++ P
+ +2.82e+00    3 4.00e+00 +1.2538797e+03 ****Converg  +1.33e+00 14  ++ P
+ +1.40e+00    4 8.00e+00 +1.1998527e+03 ****Converg  +1.27e+00 14  ++ P
+ +6.93e-01    5 1.60e+01 +1.1546493e+03 ****Converg  +1.21e+00 14  ++ P
+ +3.70e-01    6 3.20e+01 +1.1237497e+03 ****Converg  +1.11e+00 14  ++ P
+ +1.17e-01    7 6.40e+01 +1.0945734e+03 ****Converg  +1.04e+00 14  ++ P
+ +2.16e-02    8 1.28e+02 +1.0896943e+03 ****Converg  +1.03e+00 14  ++ P
+ +9.27e-03    9 2.56e+02 +1.0852740e+03 ****Converg  +1.01e+00 14  ++ P
+ +6.60e-04   10 5.12e+02 +1.0851630e+03 ****Converg  +1.00e+00 14  ++ P
+ +4.53e-04   11 1.02e+03 +1.0851154e+03 ****Converg  +1.00e+00 14  ++ P
+ +5.05e-05   12 2.05e+03 +1.0851152e+03 ****Converg  +1.00e+00 14  ++ P
  Convergence reached...
- Run time interval: [10:06:48,10:06:48]
- Run time: 00:00
+ Run time interval: [11:21:06,11:21:08]
+ Run time: 00:02
  Estimated parameters: 
-ASC_TRAIN = -0.153914
+ASC_TRAIN = -0.811565
 
-B_TRAIN_TIME = -0.0178121
+B_TRAIN_TIME = -0.0113628
 
-B_COST_TRAIN = 0.0153004
+B_COST_TRAIN = -0.0570084
 
-ASC_CAR = 0.38919
+B_LANG_CODE = 1.08275
 
-B_CAR_TIME = -0.0429266
+ASC_CAR = 1.21047
 
-B_COST_CAR = 0.0720765
+B_CAR_TIME = -0.0346959
 
-B_MALE_CAR = 0.201423
+B_COST_CAR = -0.0228335
+
+B_CAR_AVAIL1 = 0.740797
+
+B_CAR_AVAIL2 = -0.834983
+
+B_CAR_AVAIL3 = -2.99003
+
+B_FreqCarPar1 = 0
+
+B_FreqCarPar2 = 0.420334
+
+B_FreqCarPar3 = 0.520443
 
 ASC_WALK = 0
 
-B_WALK_DIST = -0.226415
+B_WALK_DIST = -0.240291
 
-B_MALE_TRAIN = 0.0381287
+B_TRIP_PURPOSE = -0.238647
 
 
- File optima~2_param.py created
+ File optima~27_param.py created
  Directory: /home/maximilian/Desktop/EPFL/Mathematical Modelling of Behavior/Project/data/Model1
  --------------------------------------------------------
- Results (HTML) are available in optima~2.html
+ Results (HTML) are available in optima~27.html
  --------------------------------------------------------
- Results (LaTeX) are available in optima~2.tex
+ Results (LaTeX) are available in optima~27.tex
  --------------------------------------------------------
