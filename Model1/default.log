@@ -1,72 +1,91 @@
 This file has automatically been generated.
-Tue Nov 22 11:21:06 2016
+Tue Nov 22 11:28:57 2016
 Michel Bierlaire, EPFL
 
 biogeme 2.5 [Die Okt 4 11:24:55 CEST 2016]
 Michel Bierlaire, EPFL
 
-Warning: [11:21:06]bioMain.cc:102  pythonbiogeme optima optimaDataset.dat
-[11:21:06]bioParameters.cc:373  Parameter documentation generated: pythonparam.html
-[11:21:06]bioModelParser.cc:109  optima.py exists
+Warning: [11:28:57]bioMain.cc:102  pythonbiogeme optima optimaDataset.dat
+[11:28:57]bioParameters.cc:373  Parameter documentation generated: pythonparam.html
+[11:28:57]bioModelParser.cc:109  optima.py exists
  Read sample in binary format from __bin_optimaDataset.dat *****
  Processing the sample file: __bin_optimaDataset.dat [00:00]
  Nbr of cores reported by the system: 4
  Nbr of cores used by biogeme: 2
  Init. log-likelihood: -2093.96 [00:00]
      gmax Iter   radius        f(x)     Status       rhok nFree
- +4.78e+00    1 1.00e+00 +2.0939550e+03 ****Converg  +1.05e+00 14  ++ P
- +5.43e+00    2 2.00e+00 +1.4890955e+03 ****Converg  +1.10e+00 14  ++ P
- +2.82e+00    3 4.00e+00 +1.2538797e+03 ****Converg  +1.33e+00 14  ++ P
- +1.40e+00    4 8.00e+00 +1.1998527e+03 ****Converg  +1.27e+00 14  ++ P
- +6.93e-01    5 1.60e+01 +1.1546493e+03 ****Converg  +1.21e+00 14  ++ P
- +3.70e-01    6 3.20e+01 +1.1237497e+03 ****Converg  +1.11e+00 14  ++ P
- +1.17e-01    7 6.40e+01 +1.0945734e+03 ****Converg  +1.04e+00 14  ++ P
- +2.16e-02    8 1.28e+02 +1.0896943e+03 ****Converg  +1.03e+00 14  ++ P
- +9.27e-03    9 2.56e+02 +1.0852740e+03 ****Converg  +1.01e+00 14  ++ P
- +6.60e-04   10 5.12e+02 +1.0851630e+03 ****Converg  +1.00e+00 14  ++ P
- +4.53e-04   11 1.02e+03 +1.0851154e+03 ****Converg  +1.00e+00 14  ++ P
- +5.05e-05   12 2.05e+03 +1.0851152e+03 ****Converg  +1.00e+00 14  ++ P
+ +4.78e+00    1 1.00e+00 +2.0939550e+03 ****OutTrReg -3.80e+304 16  -  P
+ +4.78e+00    2 5.00e-01 +2.0939550e+03 ****OutTrReg +3.38e-01 16  +  P
+ +4.92e+00    3 5.00e-01 +1.5278459e+03 ****NegCurv  -1.10e+305 16  -  P
+ +4.92e+00    4 2.50e-01 +1.5278459e+03 ****NegCurv  -3.15e+305 16  -  P
+ +4.92e+00    5 1.25e-01 +1.5278459e+03 ****OutTrReg -2.22e+01 16  -  P
+ +4.92e+00    6 6.25e-02 +1.5278459e+03 ****OutTrReg +7.91e-01 16  +  P
+ +4.61e+00    7 6.25e-02 +1.3657963e+03 ****OutTrReg +8.99e-01 16  +  P
+ +4.80e+00    8 6.25e-02 +1.3177623e+03 ****OutTrReg +8.55e-01 16  +  P
+ +2.97e+00    9 6.25e-02 +1.2862896e+03 ****OutTrReg +1.07e+00 16  ++ P
+ +7.22e-01   10 1.25e-01 +1.2637311e+03 ****OutTrReg +8.47e-01 16  +  P
+ +1.05e+00   11 1.25e-01 +1.2358155e+03 ****OutTrReg +1.04e+00 16  ++ P
+ +8.86e-01   12 2.50e-01 +1.2004403e+03 ****OutTrReg +9.13e-01 16  ++ P
+ +8.01e-01   13 5.00e-01 +1.1661890e+03 ****OutTrReg +2.63e-01 16  +  P
+ +6.08e-01   14 5.00e-01 +1.1455756e+03 ****NegCurv  -7.37e-01 16  -  P
+ +6.08e-01   15 2.50e-01 +1.1455756e+03 ****OutTrReg +4.31e-01 16  +  P
+ +3.44e+00   16 2.50e-01 +1.1068043e+03 ****NegCurv  -5.99e-03 16  -  P
+ +3.44e+00   17 1.25e-01 +1.1068043e+03 ****NegCurv  +7.45e-01 16  +  P
+ +1.35e+00   18 1.25e-01 +1.0662430e+03 ****OutTrReg +9.56e-01 16  ++ P
+ +1.57e-01   19 2.50e-01 +1.0564545e+03 ****OutTrReg +1.05e+00 16  ++ P
+ +3.84e-01   20 5.00e-01 +1.0497757e+03 ****OutTrReg +9.19e-01 16  ++ P
+ +9.96e-02   21 1.00e+00 +1.0422847e+03 ****Converg  +1.01e+00 16  ++ P
+ +2.09e-01   22 2.00e+00 +1.0267711e+03 ****Converg  +1.01e+00 16  ++ P
+ +1.48e-02   23 4.00e+00 +1.0264360e+03 ****Converg  +1.03e+00 16  ++ P
+ +1.21e-02   24 8.00e+00 +1.0259599e+03 ****Converg  +1.01e+00 16  ++ P
+ +8.44e-04   25 1.60e+01 +1.0258642e+03 ****Converg  +9.99e-01 16  ++ P
+ +1.16e-03   26 3.20e+01 +1.0258148e+03 ****Converg  +1.00e+00 16  ++ P
+ +8.33e-05   27 6.40e+01 +1.0258148e+03 ****Converg  +1.00e+00 16  ++ P
  Convergence reached...
- Run time interval: [11:21:06,11:21:08]
- Run time: 00:02
+ Run time interval: [11:28:57,11:29:02]
+ Run time: 00:05
  Estimated parameters: 
-ASC_TRAIN = -0.811565
+ASC_TRAIN = -1.06886
 
-B_TRAIN_TIME = -0.0113628
+B_COST_TRAIN = -0.0503825
 
-B_COST_TRAIN = -0.0570084
+B_LANG_CODE = 0.999893
 
-B_LANG_CODE = 1.08275
+LAMBDA = 0.559186
 
-ASC_CAR = 1.21047
+B_TRAIN_TIME = -0.129122
 
-B_CAR_TIME = -0.0346959
+ASC_CAR = 0.833055
 
-B_COST_CAR = -0.0228335
+B_COST_CAR = -0.0170104
 
-B_CAR_AVAIL1 = 0.740797
+B_CAR_AVAIL1 = 0.715574
 
-B_CAR_AVAIL2 = -0.834983
+B_CAR_AVAIL2 = -0.909727
 
-B_CAR_AVAIL3 = -2.99003
+B_CAR_AVAIL3 = -3.11982
 
 B_FreqCarPar1 = 0
 
-B_FreqCarPar2 = 0.420334
+B_FreqCarPar2 = 0.449823
 
-B_FreqCarPar3 = 0.520443
+B_FreqCarPar3 = 0.536004
+
+B_CAR_TIME = -0.258871
 
 ASC_WALK = 0
 
-B_WALK_DIST = -0.240291
+B_TRIP_PURPOSE = -0.266624
 
-B_TRIP_PURPOSE = -0.238647
+B_WALK_DIST = -1.30089
+
+LAMBDA_WALK = 0.31253
 
 
- File optima~27_param.py created
+ File optima~30_param.py created
  Directory: /home/maximilian/Desktop/EPFL/Mathematical Modelling of Behavior/Project/data/Model1
  --------------------------------------------------------
- Results (HTML) are available in optima~27.html
+ Results (HTML) are available in optima~30.html
  --------------------------------------------------------
- Results (LaTeX) are available in optima~27.tex
+ Results (LaTeX) are available in optima~30.tex
  --------------------------------------------------------
