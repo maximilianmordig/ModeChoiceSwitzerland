@@ -1,0 +1,59 @@
+This file has automatically been generated.
+Tue Nov 22 10:06:47 2016
+Michel Bierlaire, EPFL
+
+biogeme 2.5 [Die Okt 4 11:24:55 CEST 2016]
+Michel Bierlaire, EPFL
+
+Warning: [10:06:47]bioMain.cc:102  pythonbiogeme optima optimaDataset.dat
+[10:06:47]bioParameters.cc:373  Parameter documentation generated: pythonparam.html
+[10:06:48]bioModelParser.cc:109  optima.py exists
+ Read sample in binary format from __bin_optimaDataset.dat *****
+ Processing the sample file: __bin_optimaDataset.dat [00:00]
+ Nbr of cores reported by the system: 4
+ Nbr of cores used by biogeme: 2
+ Init. log-likelihood: -2093.96 [00:00]
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +4.78e+00    1 1.00e+00 +2.0939550e+03 ****Converg  +1.24e+00 9  ++ P
+ +5.50e+00    2 2.00e+00 +1.8181575e+03 ****Converg  +1.06e+00 9  ++ P
+ +2.84e+00    3 4.00e+00 +1.4975877e+03 ****Converg  +1.33e+00 9  ++ P
+ +1.35e+00    4 8.00e+00 +1.4035517e+03 ****Converg  +1.03e+00 9  ++ P
+ +5.80e-01    5 1.60e+01 +1.3230353e+03 ****Converg  +1.18e+00 9  ++ P
+ +2.19e-01    6 3.20e+01 +1.3019344e+03 ****Converg  +1.10e+00 9  ++ P
+ +3.75e-02    7 6.40e+01 +1.2982770e+03 ****Converg  +9.91e-01 9  ++ P
+ +1.00e-02    8 1.28e+02 +1.2963199e+03 ****Converg  +1.00e+00 9  ++ P
+ +3.60e-03    9 2.56e+02 +1.2961440e+03 ****Converg  +9.98e-01 9  ++ P
+ +1.17e-04   10 5.12e+02 +1.2961256e+03 ****Converg  +1.00e+00 9  ++ P
+ +6.83e-06   11 1.02e+03 +1.2961243e+03 ****Converg  +1.00e+00 9  ++ P
+ Convergence reached...
+ Run time interval: [10:06:48,10:06:48]
+ Run time: 00:00
+ Estimated parameters: 
+ASC_TRAIN = -0.153914
+
+B_TRAIN_TIME = -0.0178121
+
+B_COST_TRAIN = 0.0153004
+
+ASC_CAR = 0.38919
+
+B_CAR_TIME = -0.0429266
+
+B_COST_CAR = 0.0720765
+
+B_MALE_CAR = 0.201423
+
+ASC_WALK = 0
+
+B_WALK_DIST = -0.226415
+
+B_MALE_TRAIN = 0.0381287
+
+
+ File optima~2_param.py created
+ Directory: /home/maximilian/Desktop/EPFL/Mathematical Modelling of Behavior/Project/data/Model1
+ --------------------------------------------------------
+ Results (HTML) are available in optima~2.html
+ --------------------------------------------------------
+ Results (LaTeX) are available in optima~2.tex
+ --------------------------------------------------------
